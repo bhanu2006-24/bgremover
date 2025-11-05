@@ -1,9 +1,18 @@
+# Core UI
 streamlit>=1.45.0
+
+# Background remover (U²-Net via rembg)
 rembg>=2.0.67
-pillow>=11.0.0
 onnxruntime>=1.20.0
-requests
-opencv-python
-numpy
-pytesseract
-reportlab
+
+# Image processing
+pillow>=11.0.0
+opencv-python-headless==4.10.0.84
+numpy>=1.26.0
+
+# OCR
+pytesseract>=0.3.10
+
+# Utilities
+requests>=2.31.0
+reportlab>=4.0.0
