@@ -3,6 +3,15 @@
 A collection of **Streamlit web apps** for professional‑grade image processing — built entirely with Python libraries (no external APIs).  
 From background removal to format conversion, resizing, sketch effects, OCR, and creative generators, this toolkit is designed to be **modular, offline, and premium‑quality**.
 
+
+
+## 🚀 Live Demo
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bs-img-toolkit.streamlit.app/)
+
+Check out the deployed app here:  
+👉 [bs-img-toolkit.streamlit.app](https://bs-img-toolkit.streamlit.app/)
+
 ---
 
 ## ✨ Included Apps
