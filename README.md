@@ -66,26 +66,26 @@ Check out the deployed app here:
 
 ---
 
-### 🔠 ASCII Art Converter
+<!-- ### 🔠 ASCII Art Converter
 - Convert images into ASCII text art.  
 - Adjustable resolution (detail level).  
 - Export as `.txt` or styled HTML.  
 
----
+--- -->
 
-### 🕶️ Blur / Pixelate Tool
+<!-- ### 🕶️ Blur / Pixelate Tool
 - Apply blur or pixelation for privacy.  
 - Adjustable intensity.  
 - (Planned upgrade: brush mode for selective blur).  
 
----
+--- -->
 
-### ✍️ Premium Text Adder
+<!-- ### ✍️ Premium Text Adder
 - Add multiple text overlays (captions, watermarks, memes).  
 - Control font, size, color, and position (X/Y).  
 - Save multiple text layers.  
 - Side‑by‑side preview + final export.  
-- (Planned upgrade: drag‑and‑drop positioning).  
+- (Planned upgrade: drag‑and‑drop positioning).   -->
 
 ---
 
