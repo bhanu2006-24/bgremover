@@ -1,105 +1,89 @@
 # 🖼️ Premium Image Toolkit
 
-A collection of **Streamlit web apps** for professional‑grade image processing — built entirely with Python libraries (no external APIs).  
-From background removal to format conversion, resizing, sketch effects, OCR, and creative generators, this toolkit is designed to be **modular, offline, and premium‑quality**.
+A collection of **7 Streamlit web apps** for professional‑grade image processing — built entirely with Python libraries (no external APIs).  
+This toolkit is designed to be **modular, offline, and premium‑quality**, covering everything from background removal to OCR and icon generation.
 
-
-
-## 🚀 Live Demo
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bs-img-toolkit.streamlit.app/)
-
-Check out the deployed app here:  
-👉 [bs-img-toolkit.streamlit.app](https://bs-img-toolkit.streamlit.app/)
+👉 **Live Demo:** [bs-img-toolkit.streamlit.app](https://bs-img-toolkit.streamlit.app/)
 
 ---
 
 ## ✨ Included Apps
 
-### 🪄 Background Remover
+### 🌿 Background Remover
 - Remove image backgrounds using [rembg](https://github.com/danielgatis/rembg) (U²‑Net).  
 - Replace with transparent, solid color, custom image, or blurred background.  
-- Styling: soft shadow, subject outline, circle crop, rounded corners.  
-- Batch processing + ZIP download.
+- Styling options: soft shadow, subject outline, circle crop, rounded corners.  
+- Batch processing + ZIP download.  
 
----
-
-### 🔄 Format Changer
+### 🔄 Format Converter
 - Convert between PNG, JPG, WEBP, TIFF, BMP.  
 - Side‑by‑side preview of **original vs converted**.  
 - Shows format + file size for both.  
-- One‑click download.
+- One‑click download.  
 
----
-
-### 📏 Size / Resizer
+### 📏 Resizer
 - Resize by width/height, percentage, or max dimension.  
 - Maintains aspect ratio.  
 - Side‑by‑side preview with dimensions + file size.  
 
----
-
 ### ✏️ Sketch Converter
 - Convert photos into pencil sketch or cartoon‑style images.  
 - Adjustable intensity.  
-- Side‑by‑side preview + download.
+- Side‑by‑side preview + download.  
 
----
-
-### 🔤 Text Reader (OCR)
+### 🔥 OCR Text Reader
 - Extract text from images using [pytesseract](https://github.com/madmaze/pytesseract).  
 - Supports multiple languages.  
-- Copy text or export as `.txt`.
-
----
+- Copy text or export as `.txt`.  
 
 ### 🌐 Image → URL Converter
 - Upload an image → instantly generate a shareable URL.  
 - Useful for embedding in docs, websites, or APIs.  
 
----
-
-### 🪟 Icon Generator
+### 🪙 Icon Generator
 - Generate multiple icon sizes (16×16, 32×32, 64×64, 128×128, 256×256, 512×512).  
 - Preview all sizes side‑by‑side.  
 - Download all icons as a ZIP.  
 
 ---
 
-<!-- ### 🔠 ASCII Art Converter
-- Convert images into ASCII text art.  
-- Adjustable resolution (detail level).  
-- Export as `.txt` or styled HTML.  
+## 📸 Screenshots
 
---- -->
+*(Replace these placeholders with actual screenshots saved in `assets/`)*
 
-<!-- ### 🕶️ Blur / Pixelate Tool
-- Apply blur or pixelation for privacy.  
-- Adjustable intensity.  
-- (Planned upgrade: brush mode for selective blur).  
-
---- -->
-
-<!-- ### ✍️ Premium Text Adder
-- Add multiple text overlays (captions, watermarks, memes).  
-- Control font, size, color, and position (X/Y).  
-- Save multiple text layers.  
-- Side‑by‑side preview + final export.  
-- (Planned upgrade: drag‑and‑drop positioning).   -->
+- Background Remover → 
+- ![Background Remover](assets/background1.png)  
+- ![Background Remover](assets/background2.png) 
+- Format Converter → ![Format Converter](assets/format.png)  
+- Resizer → 
+- ![Resizer](assets/size1.png)  
+- ![Resizer](assets/size2.png) 
+- Sketch Converter → ![Sketch Converter](assets/sketch.png)  
+- OCR → ![OCR](assets/ocr.png)  
+- Image → URL Converter → 
+- ![Image to URL](assets/url1.png) 
+- ![Image to URL](assets/url2.png)   
+- Icon Generator → 
+- ![Icon Generator](assets/icon1.png)  
+- ![Icon Generator](assets/icon2.png)  
 
 ---
 
-## 📦 Installation
+## ⚙️ Installation
 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/bhanu2006-24/image-toolkit
-cd image-toolkit
+git clone https://github.com/bhanu2006-24/img-toolkit.git
+cd img-toolkit
 
 # Create a virtual environment (recommended)
-conda create -n imagetools python=3.11
-conda activate imagetools
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
 
 # Install requirements
 pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
